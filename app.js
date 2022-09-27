@@ -12,6 +12,10 @@ import { BoxLineGeometry } from 'https://unpkg.com/three@0.144.0/examples/jsm/ge
 import { VRButton } from 'https://unpkg.com/three@0.144.0/examples/jsm/webxr/VRButton.js';
 import { TextGeometry } from 'https://unpkg.com/three@0.144.0/examples/jsm/geometries/TextGeometry.js';
 
+////////////////////
+// initialization //
+////////////////////
+
 // an array of shapes
 let shapes = [];
 // rotation flag
@@ -120,6 +124,10 @@ document.getElementById("dim").onclick = dimLights;
 document.getElementById("addShape").onclick = addShape;
 document.getElementById("clear").onclick = clear;
 document.getElementById("dance").onclick = dance;
+
+///////////////
+// functions //
+///////////////
 
 // dims lights in range 0.1 to 1, step -0.1
 function dimLights(){
